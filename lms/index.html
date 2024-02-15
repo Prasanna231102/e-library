@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .page1 {
+            min-height: 100vh;
+            width: 100%;
+            background: linear-gradient(45deg, #4ea4dbe3, transparent);
+        }
+
+        .navbar-brand {
+            color: #355389;
+            font-weight: bold;
+
+        }
+
+        img {
+            height: 441px;
+            width: 499px;
+            margin-top: 62px;
+        }
+
+        #sec1 {
+            padding-top: 97px;
+        }
+
+        .row {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 49px;
+            text-align: center;
+            color: #355389;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+        }
+
+        .row a {
+            padding: 4px;
+            margin: 10px;
+            text-decoration: none;
+            border: 2px solid #355389;
+            border-radius: 10px;
+            background: #355389;
+            color: white;
+        }
+
+        @media screen and (max-width: 767px) {
+
+            img {
+                margin: 10px;
+            }
+            #sec1 {
+            padding-top: 20px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page1">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-auto" href="#">YCCE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col-md-4 order-sm-2">
+                <img class="img-fluid" src="/lms/images/digital-library.png" alt="">
+            </div>
+            <div class="col-md-5 order-sm-1" id="sec1">
+                <h1>Information Technology</h1>
+                <p style="text-align: center; margin-top: 20px;">"From chaos to cataloged - experience the power of organized knowledge."
+                </p>
+                <div style="text-align: center;margin-top: 200px;">click on below buttons to download</div>
+                <div>
+                    <div class="buttons"> <a href="">Operating System</a>
+                        <a href="">Networking</a>
+                    </div>
+                    <div class="buttons">
+                        <a href="">Data Structure</a>
+                        <a href="https://savnerboy.s3.ap-south-1.amazonaws.com/MYSQL+path.txt">software Testing</a>
+                        <a href="">Python programing</a>
+                    </div>
+                    <div class="buttons">
+                        <a href="https://www.google.com/search?q=car+phone+holder&oq=car&gs_lcrp=EgZjaHJvbWUqDAgCECMYJxiABBiKBTIGCAAQRRg8Mg8IARBFGDkYgwEYsQMYgAQyDAgCECMYJxiABBiKBTIMCAMQLhgnGIAEGIoFMgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgyODUwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">Artificial intelligence</a>
+                        <a href="">business intelligence</a>
+                        <a href="https://savnerboy.s3.ap-south-1.amazonaws.com/1703681727066.jpg">DBMS</a>
+                        <a href="">Amazon Web Services</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
